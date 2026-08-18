@@ -202,10 +202,37 @@
 ## 🎧 What I'm Listening To
 
 <p align="center">
-  <img src="https://novatorem-amankmodanwal.vercel.app/api/spotify" width="500" />
+  <em>🎵 When the code gets loud, I turn up the music and turn down the noise. 💻</em>
 </p>
 
-<p align="center"><sub> Play Ypur favourite Songes </sub></p>
+<br>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=R7iy52b79eg">
+    <img
+      src="./music-player.svg"
+      width="380"
+      alt="Coding Mode Music Player"
+    />
+  </a>
+</p>
+<!-- Parrots -->
+  <div align="center">
+  <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/flags/hd/iranparrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="25" height="25"/>
+  <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="25" height="25"/>
+  </div>
+
+<p align="center">
+  <sub>🎵 Click the player to listen • ⚡ Focus Mode: ON</sub>
+</p>
 
 ---
 
