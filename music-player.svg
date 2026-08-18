@@ -1,0 +1,261 @@
+<svg width="380" height="210" viewBox="0 0 380 210" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <!-- Teal Accent -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00A6A6"/>
+      <stop offset="100%" stop-color="#00E5D8"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- CARD -->
+  <rect
+    x="2"
+    y="2"
+    width="376"
+    height="206"
+    rx="28"
+    fill="url(#bg)"
+    stroke="#30363d"
+    stroke-width="2"
+  />
+
+
+  <!-- MUSIC ICON -->
+  <circle
+    cx="55"
+    cy="52"
+    r="25"
+    fill="#21262d"
+    stroke="#00A6A6"
+    stroke-width="1.5"
+  />
+
+  <text
+    x="55"
+    y="60"
+    text-anchor="middle"
+    font-size="23"
+  >🎧</text>
+
+
+  <!-- TITLE -->
+
+  <text
+    x="95"
+    y="40"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="10"
+    font-weight="600"
+    letter-spacing="2"
+    fill="#8b949e"
+  >
+    NOW PLAYING
+  </text>
+
+  <text
+    x="95"
+    y="64"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="20"
+    font-weight="700"
+    fill="#ffffff"
+  >
+    Coding Mode
+  </text>
+
+  <text
+    x="95"
+    y="82"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="11"
+    fill="#8b949e"
+  >
+    Aman Modanwal • Developer Vibes
+  </text>
+
+
+  <!-- QUOTE -->
+
+  <text
+    x="24"
+    y="108"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="11"
+    font-style="italic"
+    fill="#c9d1d9"
+  >
+    “When the code gets loud, I turn up the music.”
+  </text>
+
+
+  <!-- PROGRESS BAR -->
+
+  <rect
+    x="24"
+    y="126"
+    width="332"
+    height="5"
+    rx="3"
+    fill="#30363d"
+  />
+
+  <rect
+    x="24"
+    y="126"
+    width="135"
+    height="5"
+    rx="3"
+    fill="url(#accent)"
+  />
+
+  <circle
+    cx="159"
+    cy="128.5"
+    r="6"
+    fill="#00E5D8"
+    filter="url(#glow)"
+  />
+
+
+  <!-- TIME -->
+
+  <text
+    x="24"
+    y="145"
+    font-family="Consolas, monospace"
+    font-size="8"
+    fill="#6e7681"
+  >
+    01:24
+  </text>
+
+  <text
+    x="356"
+    y="145"
+    text-anchor="end"
+    font-family="Consolas, monospace"
+    font-size="8"
+    fill="#6e7681"
+  >
+    03:42
+  </text>
+
+
+  <!-- CONTROLS -->
+
+  <g transform="translate(115,150)">
+
+    <!-- Previous -->
+    <circle
+      cx="25"
+      cy="18"
+      r="17"
+      fill="#21262d"
+      stroke="#30363d"
+    />
+
+    <text
+      x="25"
+      y="24"
+      text-anchor="middle"
+      font-size="15"
+      fill="#ffffff"
+    >
+      ◀
+    </text>
+
+
+    <!-- PLAY -->
+
+    <circle
+      cx="75"
+      cy="18"
+      r="22"
+      fill="url(#accent)"
+      filter="url(#glow)"
+    />
+
+    <text
+      x="75"
+      y="25"
+      text-anchor="middle"
+      font-size="17"
+      fill="#0d1117"
+    >
+      ▶
+    </text>
+
+
+    <!-- Next -->
+
+    <circle
+      cx="125"
+      cy="18"
+      r="17"
+      fill="#21262d"
+      stroke="#30363d"
+    />
+
+    <text
+      x="125"
+      y="24"
+      text-anchor="middle"
+      font-size="15"
+      fill="#ffffff"
+    >
+      ▶
+    </text>
+
+  </g>
+
+
+  <!-- BOTTOM -->
+
+  <text
+    x="24"
+    y="198"
+    font-family="Consolas, monospace"
+    font-size="9"
+    fill="#8b949e"
+  >
+    JAVA • SPRING BOOT • PYTHON • SQL • DSA
+  </text>
+
+  <circle
+    cx="350"
+    cy="195"
+    r="4"
+    fill="#00E5D8"
+  />
+
+  <text
+    x="338"
+    y="199"
+    text-anchor="end"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="8"
+    fill="#00E5D8"
+  >
+    FOCUS ON
+  </text>
+
+</svg>
